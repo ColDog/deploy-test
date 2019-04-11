@@ -1,0 +1,9 @@
+labels:
+  deploy/review:
+    environment: review
+    transient_environment: true
+    auto_merge: false
+  deploy:
+    environment: production
+    transient_environment: false
+    auto_merge: true
